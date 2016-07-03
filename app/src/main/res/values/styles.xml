@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <item name="actionBarTheme">@style/AppTheme.ToolBarTheme</item>
+        <item name="actionBarStyle">@style/AppTheme.ToolBarStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    
+    <style name="AppTheme.ToolBarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.ToolBarStyle" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        <item name="colorControlHighlight">@color/grey</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+</resources>
